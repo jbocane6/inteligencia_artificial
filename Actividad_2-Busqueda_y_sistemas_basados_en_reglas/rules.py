@@ -1,4 +1,5 @@
 transporte_masivo = {
+    # Define nodo del grafo o 'estaciones'
     'estaciones': {
         'A': {'B', 'C', 'D'},
         'B': {'A', 'D', 'E', 'F'},
@@ -15,6 +16,7 @@ transporte_masivo = {
         'M': {'K', 'L', 'N'},
         'N': {'L', 'M'}
     },
+    # Indica tiempos entra cada nodo
     'tiempos': {
         ('A', 'B'): 5,
         ('A', 'C'): 8,
